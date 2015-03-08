@@ -1,0 +1,22 @@
+{
+    "name": "phabitat/exceptional",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Bytchek",
+            "email": "ianbytchek@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Exceptional\\": "source"
+        }
+    },
+    "require": {
+        "phabitat/spl": "0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.*"
+    }
+}
